@@ -15,7 +15,7 @@
 
 body {
   margin: 0;
-  background-image: url('clock.jpg');
+  background-image: url('src/assets/clock.avif');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
