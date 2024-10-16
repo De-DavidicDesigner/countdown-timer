@@ -1,0 +1,150 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+*{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: url(clock.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: #fff;
+  min-height: 100vh;
+}
+
+#head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 3rem auto;
+}
+
+#head img {
+  width: 10rem;
+  height: 10rem;
+  object-fit: contain;
+}
+
+#head h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #fff;
+  background-color: rgba(100, 0, 0, 0.13);
+  backdrop-filter: blur(10px);
+  border-radius: 10px;
+  width: 30%;
+  text-align: center;
+}
+
+#set-time {
+  padding: 3rem;
+  margin: 3rem auto;
+  max-width: 35rem;
+  background-color: rgba(100, 0, 0, 0.13);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid rgba(225, 225, 225, 0.2);
+  border-radius: 10px;
+}
+
+.input-unit {
+  display: block;
+  align-items: center;
+  justify-content: center;
+  gap: 1.5rem;
+}
+
+#set-time label {
+  display: block;
+  margin-bottom: 0.25rem;
+  text-transform: uppercase;
+}
+
+#set-time input {
+  width: 100%;
+  padding: 0.5rem;
+  border: 2px solid #fff;
+  border-radius: 0.25rem;
+  background-color: transparent;
+  color: aliceblue;
+  font-size: 1rem;
+}
+
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem auto;
+}
+
+.button button {
+  padding: 0.5rem;
+  width: 50%;
+  border: 1px solid #fff;
+  background-color: transparent;
+  color: #fff;
+  font-size: 2rem;
+  border-radius: 5px;
+  transition: background-color ease 1s, color ease 1s;
+}
+
+.button button:hover {
+  background-color: #ffffff;
+  color: #640000;
+}
+
+#timer {
+  padding: 7rem;
+  max-width: 75rem;
+  text-align: center;
+  margin: 10rem auto;
+  background-color: rgba(100, 0, 0, 0.13);
+  backdrop-filter: blur(10px);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.8);
+  -webkit-backdrop-filter: blur(50px);
+  border: 1px solid rgba(225, 225, 225, 0.2);
+  border-radius: 10px;
+  color: #1a1313;
+}
+
+.time-counter {
+  color: #640000;
+  font-size: 15rem;
+}
+
+#timer .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+}
+
+#timer .button button {
+  padding: 0.5rem;
+  width: 50%;
+  border: 1px solid #640000;
+  background-color: transparent;
+  color: #640000;
+  font-size: 2rem;
+  border-radius: 5px;
+  transition: background-color ease 1s, color ease 1s, border ease 1s;
+}
+
+#timer .button button:hover {
+  background-color: rgba(100, 0, 0, 0.247);
+  color: #fff;
+  /* border: 1px solid #640000 */
+}
