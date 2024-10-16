@@ -15,8 +15,9 @@
 
 body {
   margin: 0;
-  background: url(clock.avif);
+  background-image: url(clock.avif);
   background-size: cover;
+  background-position: center;
   background-repeat: no-repeat;
   color: #fff;
   min-height: 100vh;
