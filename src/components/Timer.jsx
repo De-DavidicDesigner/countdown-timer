@@ -3,7 +3,7 @@ export default function Timer({ format, onClick }) {
         <section id="timer">
             <div className="time-counter">{format()}</div> 
             <div className="button">
-                <button className="button" onClick={onClick}>Restart</button>
+                <button onClick={onClick}>Restart</button>
             </div>
         </section>
     )
